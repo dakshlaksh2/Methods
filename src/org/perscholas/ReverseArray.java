@@ -24,6 +24,7 @@ public class ReverseArray {
     }//end of method
 
     public void userInput(){
+        //Getting user input
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string: ");
         userInput = sc.nextLine();
